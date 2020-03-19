@@ -1,4 +1,5 @@
 FROM ubuntu:latest
+MAINTAINER Yasin İsa YILDIRIM "yasinisayildirim@protonmail.com"
 RUN apt update \
 	&& apt install -y python-pip \
 	&& apt install -y git
